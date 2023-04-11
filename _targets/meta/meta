@@ -1,0 +1,37 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+climate_data|stem|47e926d0f308b64c|9e7bd9092ec1ad36|21cfd44a4dfea9b8|-961280449||t19452.2857067628s|5b72774fa5200b93|1070890|rds|local|vector|||34.03||
+database_data|stem|32af597cbdb2a163|3c32c9975e258522|dc90d0509f0f8630|1926910114||t19452.2857231755s|ac45463db19e2cbe|48|rds|local|vector|||1.16||
+file|stem|80d8369140f8a3f3|33959fb768587318|ef46db3751d8e999|-1301001980|output/list_provinces.csv|t19458.3779005268s|5a7113535e3388cd|147|file|local|vector|||9.09|package tidymodels was built under R version 4.2.3. package dials was built under R version 4.2.3. package infer was built under R version 4.2.3. package modeldata was built under R version 4.2.3. package parsnip was built under R version 4.2.3. package recipes was built under R version 4.2.3. package rsample was built under R version 4.2.3. package tune was built under R version 4.2.3. package workflows was built under R version 4.2.3. package workflowsets was built under R version 4.2.3. package yardstick was built under R version 4.2.3. package forecast was built under R version 4.2.3. package modeltime was built under R version 4.2.3. package timetk was built under R version 4.2.3|
+forecasts|stem|e9ea357dc82b7a47|df62fecb636dd7b7|c2f3bbe7bd64ec6f|-1452744287||t19452.4799750672s|9580821a3ff9e0d6|3762327|rds|local|vector|||59.29|1m22mThere were 2 warnings in dplyrmutate.The first warning was1m22m36mℹ39m In argument .nested.col  purrrmap2....Caused by warning in time_adder33m39m Missing values created during time addition. This can happen if dates do not exist.1m22m36mℹ39m Run dplyrlast_dplyr_warnings to see the 1 remaining warning.. 1m22mThere were 4 warnings in dplyrmutate.The first warning was1m22m36mℹ39m In argument .nested.col  purrrmap2....Caused by warning in time_adder33m39m Missing values created during time addition. This can happen if dates do not exist.1m22m36mℹ39m Run dplyrlast_dplyr_warnings to see the 3 remaining warnings.|
+get_accuracy|function|d9f2ea298d7bfc42|||||||||||||||
+get_accuracy_df|function|5130c0e03e734eac|||||||||||||||
+get_accuracy_table|function|aaf10e13f7910d35|||||||||||||||
+get_accuracy_tbl|function|aaf10e13f7910d35|||||||||||||||
+get_all_df|function|79392e3200c24833|||||||||||||||
+get_data|function|23a99b4ec97dd211|||||||||||||||
+get_forecast|function|ee22d41c03bc77de|||||||||||||||
+get_location|function|4d638016a0568891|||||||||||||||
+get_map|function|f80811e4848117b6|||||||||||||||
+get_map_data|function|57cf1f11686d0fd0|||||||||||||||
+get_test_viz|function|bcfe84d16f376ea3|||||||||||||||
+location|stem||340650dd7c7c5d75|d9de9fe222bff929|-71226926||t19451.5628599254s||0|rds|local|vector|||11.12|package tidymodels was built under R version 4.2.3. package dials was built under R version 4.2.3. package infer was built under R version 4.2.3. package modeldata was built under R version 4.2.3. package parsnip was built under R version 4.2.3. package recipes was built under R version 4.2.3. package rsample was built under R version 4.2.3. package tune was built under R version 4.2.3. package workflows was built under R version 4.2.3. package workflowsets was built under R version 4.2.3. package yardstick was built under R version 4.2.3. package forecast was built under R version 4.2.3. package modeltime was built under R version 4.2.3. package timetk was built under R version 4.2.3|31mcould not find packages RSQlite in library paths 39m
+model_accuracy|stem|86b4fef27705a440|efbbc83208ab8623|c212968b5deba8aa|-587516985||t19451.8105052275s|b14f2eba8df23511|416|rds|local|vector|||1.19||
+model_accuracy_df|stem|7b49e880d218d613|fe4d1b120fe5d655|b3445c75ace4f840|-1130075216||t19452.4791972771s|42dc2a0eea70d211|3546693|rds|local|vector|||2.06||
+model_accuracy_tbl|stem|86b4fef27705a440|1d0bce1458aa3686|b53ae8c08c8647d7|-311847064||t19452.47927241s|b14f2eba8df23511|416|rds|local|vector|||0.79||
+modeling|function|99940c32be12ac6e|||||||||||||||
+models|stem|5c34ceb61264ec3d|2efc06003c907a90|97642d85aa14ce54|-252836656||t19452.4791350161s|69ee1615e48f9500|3540377|rds|local|vector|||51.72||
+one_province|stem|491cd22c30745107|780551d8fe1150a7|294dbe950665a1d3|-295591419||t19451.6701093467s|85e0a2f8da07f990|47674|rds|local|vector|||0.14|1m22mUsing an external vector in selections was deprecated in tidyselect 1.1.0.36mℹ39m Please use all_of or any_of instead.   Was  data  selectvar   Now  data  selectall_ofvarSee httpstidyselect.rlib.orgreferencefaqexternalvector.html.|
+one_province_df|stem|491cd22c30745107|780551d8fe1150a7|93d68f71bcc3778b|-1724861697||t19452.4781935253s|85e0a2f8da07f990|47674|rds|local|vector|||0.28|1m22mUsing an external vector in selections was deprecated in tidyselect 1.1.0.36mℹ39m Please use all_of or any_of instead.   Was  data  selectvar   Now  data  selectall_ofvarSee httpstidyselect.rlib.orgreferencefaqexternalvector.html.|
+provinces|stem|e97f318bc8b8741e|a27941a2393d6ef4|564ea6edaae43ccd|-2134054426||t19451.6222559289s|ee143e4c8ea21b7d|350|rds|local|vector|||0.18||
+read_data|function|2d6039203ac586f4|||||||||||||||
+split_data|function|d28fc4539c1bbf38|||||||||||||||
+split_df|stem|460c464cfb53d8b0|e3196e9d67bcd6b7|ee313e47a35fb29d|-1698362434||t19452.4784512283s|13939e5e9ae541c8|47880|rds|local|vector|||22.15||
+store_data_db|function|6f0f2ac1e33f95f8|||||||||||||||
+subset_data|function|29f16aac537b74a7|||||||||||||||
+trend_plot|function|7b6231099339ac16|||||||||||||||
+trend_plots|stem|1025ab1c22b71c0f|b54a60b201a7e4eb|56d6023bf5a13814|1886684316||t19452.4785282458s|8bbe10aed362418a|5162146|rds|local|vector|||3.68||
+trend_split_plot|function|f9338fa25f18e136|||||||||||||||
+trend_split_plots|stem|ce7c8d7053502bb8|a8577d51f99ed404|48ca35897b8b6b1e|-1574047165||t19452.4791634694s|1feb5cd1cf4bbb1c|2636979|rds|local|vector|||1||
+trend_test_plot|stem|235e29674fe0d81f|bdcd8b5a98bcd1ff|f6345051eff3132b|451695576||t19452.4792627423s|019d695574a33221|3755122|rds|local|vector|||4.06||
+zwe_map|stem|be8905d95c1a7cfe|1e2727a3e3fafb7d|f0fb03dfa66d3b35|861334972||t19452.367511586s|450444ea21d5779c|2266293|rds|local|vector|||0.67||
+zwe_map_df|stem|ed7db21844d7983d|f66df28d7a7fb4d6|38d1d1de95b2db52|-1957435403||t19452.3574881778s|20da46f36ab4497e|98947|rds|local|vector|||0.19||
